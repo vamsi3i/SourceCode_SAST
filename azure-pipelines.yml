@@ -1,11 +1,4 @@
 # Starter pipeline
-- task: SonarCloudPrepare@1
-  inputs:
-    SonarCloud: 'sonarcloud'
-    organization: 'abhinaysvarapu'
-    scannerMode: 'MSBuild'
-    projectKey: 'esfp6fet2dfihbyhgop5c4pa35aewz6fr7fggjxcf4fo2mk26psq'
-    projectName: 'SAST1'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -24,3 +17,11 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'sonarcloud'
+    organization: 'abhinaysvarapu'
+    scannerMode: 'MSBuild'
+    projectKey: 'esfp6fet2dfihbyhgop5c4pa35aewz6fr7fggjxcf4fo2mk26psq'
+    projectName: 'SAST1'
