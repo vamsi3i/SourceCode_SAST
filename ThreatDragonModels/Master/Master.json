@@ -2,18 +2,11 @@
   "summary": {
     "title": "Master",
     "owner": "Vamsi",
-    "description": "Sample Threat Dragon"
+    "description": ""
   },
   "detail": {
     "contributors": [],
-    "diagrams": [
-      {
-        "title": "Sample",
-        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "diagramType": "STRIDE",
-        "id": 0
-      }
-    ],
+    "diagrams": [],
     "reviewer": "Sanagala"
   }
 }
